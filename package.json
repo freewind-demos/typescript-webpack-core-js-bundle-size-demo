@@ -1,6 +1,8 @@
 {
   "scripts": {
+    "prehello-core-js":  "n 10.16.0",
     "hello-core-js": "ts-node hello-core-js.ts",
+    "prehello-no-core-js": "n 10.16.0",
     "hello-no-core-js": "ts-node hello-no-core-js.ts"
   },
   "devDependencies": {
