@@ -1,11 +1,11 @@
-TypeScript Core JS Demo
-=======================
+TypeScript Webpack Core JS Bundle Size Demo
+===================================
 
 `import "core-js"`，就可以自动加上polyfill.
 
-注意：
-- 不需要像babel-polyfill那样，在webpack中对其进行打包（也不支持）
-- 需要使用一个低版本的node (比如10)，才能看到效果。
+注意：corejs文件还是比较大的，即使在webpack的production模式下，生成的文件大小也为159K左右。
+所以真实项目中可能需要结合别的工具（如babel）按需导入。
+
 
 ```
 npm install
